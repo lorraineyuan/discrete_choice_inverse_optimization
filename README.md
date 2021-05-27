@@ -4,7 +4,16 @@ In this work, we propose a framework to estimate the unobservable model in a dis
 
 # Numerical Experiment
 ## Data Generation
-In this experiment, we estimate an unknown production function. We assume a priori that the production function belongs to Cobb-Douglas parametric family. data_gen.ipynb shows how we generate observed discrete equilibria.
+In this experiment, we estimated an unknown product function. We assume a prior that the production function belongs to Cobb-Douglas parametric family indexed by $$\theta = (a, b) \in \Theta \equiv \{(a, b) : a, b > 0 \& a + b = 1\}: U = 2K^aL^b$$ where $a$ and $b$ denote the output elasticties of capital and labor, respectively. Consider a firm deciding the amount if capital and labor, $K$ and $L$ for production investment, in order to maximize the output $U$ subject to the budget constraint $p_1K + p_2L \leq w$. We week to estimte $\theta = (a, b)$ such that the data $(K_j, L_j, w_j)$ for $j = 1, ..., N$ correspond approximately to Producers' Equilibrium. Table 1 summarizes base case parameter values throughout the experiment.
+
+####  <center>Table 1: Base Case Parameters</center>
+| $p_1$ | $p_2$ | $a$ | $b$ | <center>$w$</center> |
+| --- | --- | --- | --- | --- |
+| 2.5 | 3.5 | 0.35 | 0.65 | Normal distribution $N(15, 5)$ |
+
+data_gen.ipynb shows how we generate observed discrete equilibria.
+
+
 
 ## LP Relaxation
 In continuous_relaxation.m we relax the integer program to a continuous program for estimation.
