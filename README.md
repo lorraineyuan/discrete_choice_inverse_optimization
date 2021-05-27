@@ -4,7 +4,7 @@ In this work, we propose a framework to estimate the unobservable model in a dis
 
 # Numerical Experiment
 ## Data Generation
-In this experiment, we estimate an unknown production function. We assume a priori that the production function belongs to Cobb-Douglas  parametric family indexed by \$\theta=(a,b)\in \Theta\equiv \{(a,b): a,b>0 \text{ and } a+b=1 \}$: $U=2K^{a}L^{b}$\ where $a$ and $b$ denote the output elasticities of capital and labor, respectively. Consider a firm deciding the amount of capital and labor, $K$ and $L$ for production investment, in order to maximize the output $U$ subject to the budget constraint $p_{1}K+p_{2}L\le w$. We seek to estimate $\theta=(a,b)$ such that the data $(K_{j},L_{j},w_{j})$ for $j=1,...,N$ correspond approximately to Producer's Equilibrium. 
+In this experiment, we estimate an unknown production function. We assume a priori that the production function belongs to Cobb-Douglas  parametric family indexed by \\theta=(a,b)\in \Theta\equiv \{(a,b): a,b>0 \text{ and } a+b=1 \}$: $U=2K^{a}L^{b}$\ where $a$ and $b$ denote the output elasticities of capital and labor, respectively. Consider a firm deciding the amount of capital and labor, $K$ and $L$ for production investment, in order to maximize the output $U$ subject to the budget constraint $p_{1}K+p_{2}L\le w$. We seek to estimate $\theta=(a,b)$ such that the data $(K_{j},L_{j},w_{j})$ for $j=1,...,N$ correspond approximately to Producer's Equilibrium. 
 Table \ref{table:1} summarizes base case parameter values throughout the experiment.
 
 \begin{table}[ht]
